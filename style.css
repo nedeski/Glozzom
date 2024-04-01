@@ -1,0 +1,193 @@
+.bg-darkgrey {
+  background-color: rgb(65, 65, 65);
+}
+
+.bg-darkgrey-seconary {
+  background-color: rgb(42, 42, 42);
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.default-font-size {
+  font-size: 12px;
+}
+
+/* NAVBAR */
+
+.nav-link {
+  border-left: 2px solid transparent;
+}
+
+.active-border-left {
+  border-left: 2px solid white;
+}
+
+.navbar-brand-color {
+  color: rgba(245, 245, 245, 0.514) !important;
+}
+
+.navbar-brand:hover {
+  color: rgba(245, 245, 245, 0.749) !important;
+}
+
+nav button {
+  border: none !important;
+}
+
+#navbarSupportedContent hr {
+  display: none;
+  border-top: 1px solid rgb(146, 146, 146);
+}
+
+/* CAROUSEL */
+
+.carousel .carousel-item-80vh {
+  height: 80vh;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  min-height: 80vh;
+}
+
+.carousel .carousel-caption-centered {
+  top: 50%;
+  left: 50%;
+  bottom: unset;
+  right: unset;
+  transform: translate(-50%, -50%);
+}
+
+.carousel-indicators li {
+  border-radius: 2px;
+  border: 2px solid white;
+  padding: 1px;
+  background-color: transparent;
+}
+.carousel-indicators li.active {
+  background-color: white;
+}
+
+/* PARALAX SECTION */
+
+.paralax-banner {
+  background-image: url(./images/lights.jpg);
+  background-attachment: fixed;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* VIDEO SECTION */
+
+.video-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(./images/media.jpg);
+  background-attachment: fixed;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* MODAL PROPERTIES  */
+
+.modal {
+  text-align: center;
+}
+
+.modal-body-block {
+  padding: 10px;
+}
+
+.modal-dialog-block {
+  max-width: 100%;
+  width: auto !important;
+  display: inline-block;
+}
+
+.btn-modal {
+  background: transparent;
+  border: none;
+}
+
+/* ABOUT US  */
+/* BANNER */
+
+.banner-image {
+  background-image: url(./images/image1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left top;
+  width: 100%;
+  min-height: 80vh;
+}
+
+.about-us-image {
+  position: relative;
+  top: -30px;
+}
+
+/* CARDS */
+
+.card-border-none {
+  border: none;
+}
+
+/* TESTIMONIALS */
+
+.testimonial-height {
+  min-height: 170px;
+}
+
+.carousel-control-width {
+  width: 5%;
+}
+
+/* SERVICES */
+
+.btn.focus,
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+ul li:hover a {
+  text-decoration: none;
+  color: black;
+}
+
+/* CONTACT */
+
+.border-black {
+  border: 1px solid rgba(0, 0, 0, 0.59);
+}
+
+.img-person-w {
+  max-width: 70%;
+}
+
+@media (max-width: 1700px) {
+  .banner-image {
+    background-size: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .active-border-left {
+    margin-left: -8px;
+  }
+  #navbarSupportedContent hr {
+    display: block;
+  }
+}
